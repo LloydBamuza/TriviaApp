@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light">
+
+
+    <EditText
+        android:id="@+id/edtMonth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="Enter any number"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/txtTrivia"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/edtMonth"
+        android:layout_marginTop="60dp"
+        android:background="@color/colorPrimary"
+        android:text="Numers App \nCreated by: Lloyd Bamuza \n \nPlease make sure to allow internet access \n\n Enjoy  \n\n\n\n\n\nVersion: 1.0.0"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnTrivEnter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/edtMonth"
+        android:text="ENTER" />
+</RelativeLayout>
